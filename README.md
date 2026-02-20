@@ -30,7 +30,7 @@ The organization requires:
 
 # Virtual Networking Infrastructure
 
-## Task 1: Create a Virtual Network
+## Creating a Virtual Network
 
 **Steps performed:**
 
@@ -57,13 +57,13 @@ Establishes an isolated cloud network infrastructure to host virtual machines se
 2. Created an ASG named **ManagementServers-ASG**.
 3. Verified that both ASGs were successfully provisioned.
 
-<p align="center"><strong>Figure 2: Creating Application Security Group for the Web Server </strong></p>
+<p align="center"><strong>Figure 2: Creating Application Security Group for the Web Servers </strong></p>
 
 <p align="center">
   <img src="images/NSG2.png" width="700" height="400">
 </p>
 
-<p align="center"><strong>Figure 2: Creating Application Security Group for the Management Server </strong></p>
+<p align="center"><strong>Figure 3: Creating Application Security Group for the Management Servers </strong></p>
 
 <p align="center">
   <img src="images/NSG3.png" width="700" height="400">
@@ -73,7 +73,7 @@ Establishes an isolated cloud network infrastructure to host virtual machines se
 Enables logical grouping of virtual machines for simplified and scalable security rule management.
 
 
-## Task 3: Create and Associate Network Security Group
+## Creating and Associating Network Security Group
 
 **Steps performed:**
 
@@ -81,10 +81,10 @@ Enables logical grouping of virtual machines for simplified and scalable securit
 2. Configured inbound security rule settings.
 3. Associated the NSG with the subnet created earlier.
 
-<p align="center"><strong>Figure 3: Creating Network Security Groups </strong></p>
+<p align="center"><strong>Figure 4: Creating Network Security Groupgits </strong></p>
 
 <p align="center">
-  <img src="images/senior-admins.png" width="700" height="400">
+  <img src="images/NSG4.png" width="700" height="400">
 </p>
 
 **Purpose:**  
@@ -92,7 +92,7 @@ Applies centralized network filtering policies at the subnet level.
 
 
 
-## Task 4: Configure Inbound NSG Security Rules
+## Configuring Inbound NSG Security Rules
 
 **Steps performed:**
 
@@ -101,11 +101,12 @@ Applies centralized network filtering policies at the subnet level.
 3. Verified priority and source settings.
 4. Ensured default deny rule blocks unauthorized traffic.
 
-<p align="center"><strong>Figure 4: Configuring NSG Rules</strong></p>
+<p align="center"><strong>Figure 5: Configuring NSG Rules for Web and Management Servers</strong></p>
 
 <p align="center">
-  <img src="images/senior-admins.png" width="700" height="400">
+  <img src="images/NSG5.png" width="700" height="400">
 </p>
+
 
 **Purpose:**  
 Implements fine-grained access control using ASG-based targeting and enforces the principle of least privilege.
