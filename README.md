@@ -23,8 +23,8 @@ The organization requires:
 
 ## Lab Objectives
 
-### Exercise 1: Create the Virtual Networking Infrastructure  
-### Exercise 2: Deploy Virtual Machines and Test Network Filters  
+### Create the Virtual Networking Infrastructure  
+### Deploy Virtual Machines and Test Network Filters  
 
 
 
@@ -42,12 +42,11 @@ The organization requires:
 <p align="center"><strong>Figure 1: Creating a Virtual Network</strong></p>
 
 <p align="center">
-  <img src="images/senior-admins.png" width="700" height="400">
+  <img src="images/NSG1.png" width="700" height="400">
 </p>
 
 **Purpose:**  
 Establishes an isolated cloud network infrastructure to host virtual machines securely.
-
 
 
 ## Task 2: Create Application Security Groups
@@ -58,10 +57,16 @@ Establishes an isolated cloud network infrastructure to host virtual machines se
 2. Created an ASG named **ManagementServers-ASG**.
 3. Verified that both ASGs were successfully provisioned.
 
-<p align="center"><strong>Figure 2: Creating Application Security Groups </strong></p>
+<p align="center"><strong>Figure 2: Creating Application Security Group for the Web Server </strong></p>
 
 <p align="center">
-  <img src="images/senior-admins.png" width="700" height="400">
+  <img src="images/NSG2.png" width="700" height="400">
+</p>
+
+<p align="center"><strong>Figure 2: Creating Application Security Group for the Management Server </strong></p>
+
+<p align="center">
+  <img src="images/NSG3.png" width="700" height="400">
 </p>
 
 **Purpose:**  
