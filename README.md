@@ -1,4 +1,4 @@
-# Azure Network Segmentation Using ASGs and NSGs
+# Azure Network Security Using ASGs and NSGs
 
 ## Overview
 
