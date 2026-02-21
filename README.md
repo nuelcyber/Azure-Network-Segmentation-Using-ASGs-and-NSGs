@@ -49,7 +49,7 @@ The organization requires:
 Establishes an isolated cloud network infrastructure to host virtual machines securely.
 
 
-## Task 2: Create Application Security Groups
+## Creating Application Security Groups
 
 **Steps performed:**
 
@@ -81,7 +81,7 @@ Enables logical grouping of virtual machines for simplified and scalable securit
 2. Configured inbound security rule settings.
 3. Associated the NSG with the subnet created earlier.
 
-<p align="center"><strong>Figure 4: Creating Network Security Groupgits </strong></p>
+<p align="center"><strong>Figure 4: Creating Network Security Group </strong></p>
 
 <p align="center">
   <img src="images/NSG4.png" width="700" height="400">
@@ -101,7 +101,7 @@ Applies centralized network filtering policies at the subnet level.
 3. Verified priority and source settings.
 4. Ensured default deny rule blocks unauthorized traffic.
 
-<p align="center"><strong>Figure 5: Configuring NSG Rules for Web and Management Servers</strong></p>
+<p align="center"><strong>Figure 5: Configuring Inbound NSG Rules for Web and Management Servers</strong></p>
 
 <p align="center">
   <img src="images/NSG5.png" width="700" height="400">
@@ -113,7 +113,7 @@ Implements fine-grained access control using ASG-based targeting and enforces th
 
 
 
-# Exercise 2: Deploy Virtual Machines and Test Network Filters
+# Deploying Virtual Machines and Testing Network Filters
 
 **Steps performed:**
 
@@ -126,11 +126,30 @@ Implements fine-grained access control using ASG-based targeting and enforces th
 5. Tested web access:
    - IIS default page successfully displayed from internet browser.
 
+<p align="center"><strong>Figure 6: Assigning the Web Server VM to the Web Server ASG</strong></p>
+
+<p align="center">
+  <img src="images/NSG6.png" width="700" height="400">
+</p>
+
+<p align="center"><strong>Figure 7: Installing the IIS role on the Web Server VM</strong></p>
+
+<p align="center">
+  <img src="images/NSG8.png" width="700" height="400">
+</p>
+
+<p align="center"><strong>Figure 8: Assigning the Management Server VM to the Management Server ASG</strong></p>
+
+<p align="center">
+  <img src="images/NSG7.png" width="700" height="400">
+</p>
+
 <p align="center"><strong>Figure 5: Senior Admins Group Creation</strong></p>
 
 <p align="center">
   <img src="images/senior-admins.png" width="700" height="400">
 </p>
+
 
 # Security Concepts Demonstrated
 
