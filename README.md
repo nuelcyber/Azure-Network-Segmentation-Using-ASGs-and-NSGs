@@ -73,7 +73,7 @@ Establishes an isolated cloud network infrastructure to host virtual machines se
 Enables logical grouping of virtual machines for simplified and scalable security rule management.
 
 
-## Creating and Associating Network Security Group
+## Creating and Configuring Network Security Group
 
 **Steps performed:**
 
@@ -146,7 +146,7 @@ Implements fine-grained access control using ASG-based targeting and enforces th
 </p>
 
 
-<p align="center"><strong>Figure 9: Successful RDP access to the Managament Servers</strong></p>
+<p align="center"><strong>Figure 9: Successful RDP access to the Management Servers</strong></p>
 
 <p align="center">
   <img src="images/NSG9.png" width="700" height="400">
