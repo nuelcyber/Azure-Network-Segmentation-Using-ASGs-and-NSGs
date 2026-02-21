@@ -122,7 +122,6 @@ Implements fine-grained access control using ASG-based targeting and enforces th
 3. Deployed Management Server VM and assigned it to **ManagementServers-ASG**.
 4. Tested RDP access:
    - Successful connection to Management Server.
-   - RDP access blocked to Web Server.
 5. Tested web access:
    - IIS default page successfully displayed from internet browser.
 
@@ -132,11 +131,13 @@ Implements fine-grained access control using ASG-based targeting and enforces th
   <img src="images/NSG6.png" width="700" height="400">
 </p>
 
+
 <p align="center"><strong>Figure 7: Installing the IIS role on the Web Server VM</strong></p>
 
 <p align="center">
   <img src="images/NSG8.png" width="700" height="400">
 </p>
+
 
 <p align="center"><strong>Figure 8: Assigning the Management Server VM to the Management Server ASG</strong></p>
 
@@ -144,10 +145,23 @@ Implements fine-grained access control using ASG-based targeting and enforces th
   <img src="images/NSG7.png" width="700" height="400">
 </p>
 
-<p align="center"><strong>Figure 5: Senior Admins Group Creation</strong></p>
+
+<p align="center"><strong>Figure 9: Successful RDP access to the Managament Servers</strong></p>
 
 <p align="center">
-  <img src="images/senior-admins.png" width="700" height="400">
+  <img src="images/NSG9.png" width="700" height="400">
+</p>
+
+<p align="center"><strong>Figure 10: Web Server VM assigned Public IP address 172.184.99.84</strong></p>
+
+<p align="center">
+  <img src="images/NSG11.png" width="700" height="400">
+</p>
+
+<p align="center"><strong>Figure 11: IIS default page successfully displayed from internet browser</strong></p>
+
+<p align="center">
+  <img src="images/NSG10.png" width="700" height="400">
 </p>
 
 
